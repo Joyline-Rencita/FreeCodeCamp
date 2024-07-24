@@ -1,44 +1,89 @@
-#title {
-    font-size: 400%;
-    width: 60vmax;
-  }
+* {
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-.center {
-    margin: auto;
-    padding: auto;
+#main {
+    background-color: #EEEEEE;
+    border-radius: 2px;
+    margin: 20px 10px;
+    padding: 20px 0px;
+}
+
+header {
     text-align: center;
-  }
+    margin: 20px;
+}
 
 #image {
+    display: block;
     max-width: 100%;
     height: auto;
-    display: block;
-  }
+    margin: 10px auto;
+}
 
+#img-div {
+    background-color: white;
+    padding: 20px;
+    margin: 0px 20px;
+    text-align: center;
+}
 
-  @media only screen and (min-width:480px)
-  {
+#img-caption {
+    text-align: center;
+    padding: 15px 0 10px;
+}
 
-  }
+#tribute-info {
+    text-align: center;
+    padding: 40px;
+    margin: 0px;
+    font-weight: bold;
+}
 
-  @media only screen and (min-width:767px)
-  {
+section {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    list-style-type: circle;
+    line-height: 2;
+    list-style: disc;
+    margin: 0 20%;
+    min-width: 60%;
+}
 
-  }
+span {
+    font-weight: bold;
+}
 
-  @media only screen and (min-width:991px)
-  {
+.footer {
+    margin: 0 20%;
+}
 
-  }
+h4 {
+    text-align: center;
+    margin: 20px auto 40px auto;
+}
 
-  @media only screen and (min-width:1200px)
-  {
- .font {
-    padding: 0px 200px 15px 200px;
-        }
-  }
+a {
+    text-decoration: none;
+    color: blue;
+}
 
-  @media(orientation: landscape)
-  {
+a:active {
+    color: blueviolet;
+}
 
-  }
+a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+    section {
+        min-width: 60%;
+        width: 60%;
+        margin: 0 10%;
+    }
+}
