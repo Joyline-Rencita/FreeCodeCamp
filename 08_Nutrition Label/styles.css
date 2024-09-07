@@ -96,13 +96,5 @@ p {
 
 .note {
   font-size: 0.6rem;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-left: 0;
-  margin-right: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-  padding-left: 8px;
-  padding-right: 8px;
-  text-indent: -8px;
+  margin: 5px 0;
 }
